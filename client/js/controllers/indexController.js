@@ -1,5 +1,5 @@
 console.log('in indexController')
-app.controller('indexController', function($scope, friendsFactory, $window, $location){
+app.controller('indexController', ["$scope", "friendsFactory", "$window", "$location", function($scope, friendsFactory, $window, $location){
 	$scope.friends = [];
 
 	friendsFactory.getFriends(function(data){
@@ -22,4 +22,4 @@ app.controller('indexController', function($scope, friendsFactory, $window, $loc
 			})
 		}
 	}
-})
+}])

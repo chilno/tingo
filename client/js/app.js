@@ -1,21 +1,21 @@
-var app = angular.module('friendsApp',["ngRoute"]);
+var app = angular.module('friendsApp',["ngRoute", "ui.bootstrap"]);
 
 app.config(function($routeProvider){
 	$routeProvider
 	.when('/index', {
-		templateUrl: '/partials/index.html',
+		templateUrl: '/views/index.html',
 		controller:'indexController'
 	})
 	.when('/edit/:id',{
-		templateUrl: '/partials/edit.html',
+		templateUrl: '/views/edit.html',
 		controller: 'editController'
 	})
 	.when('/show/:id', {
-		templateUrl: '/partials/show.html',
+		templateUrl: '/views/show.html',
 		controller: 'showController'
 	})
 	.when('/new', {
-		templateUrl: '/partials/new.html',
+		templateUrl: '/views/new.html',
 		controller: 'newController'
 	})
 	.otherwise({

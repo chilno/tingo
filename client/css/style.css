@@ -1,0 +1,24 @@
+#nav-top{
+	height: 44px;
+	background-color: #0ae
+}
+
+#nav-bottom{
+	height: 78px;
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.14);
+	position: relative;
+}
+
+#background{
+	background-color: #f3f3f3;
+	padding-top: 45px;
+}
+
+#content{
+	display: block;
+	/*margin-top: 45px;*/
+	min-height: 400px;
+	background-color: white;
+	/*box-shadow: 0 1px 5px rgba(0,0,0,0.14)*/
+}
