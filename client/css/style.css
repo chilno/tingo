@@ -1,7 +1,38 @@
+body{
+	font-family: helvetica;
+	font-weight: 100;
+}
+
 #nav-top{
 	height: 44px;
-	background-color: #0ae
+	background-color: #0ae;
+	
 }
+
+#nav-top ul{
+	padding: 10px 0;
+	list-style: none;
+}
+
+#nav-top li{
+	margin-right: 20px;
+}
+
+#nav-top a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.indicator{
+	height: 10px;
+	width: 10px;
+	background-color: red;
+}
+
+#nav-top a:hover{
+
+}
+
 
 #nav-bottom{
 	height: 78px;
